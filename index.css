@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/*border: 0;*/
+	border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -76,3 +76,114 @@ h1
 	font-size:5.5rem;
 }
 
+section
+{
+	/*these values "center" items"*/
+	padding: 4%;
+	width:90%;
+	margin: 0 auto;
+}
+
+nav
+{
+	/*padding: top-bottom left-right;*/
+	padding: 1% 0;
+}
+
+/*selecting the navigation area 'anchor' elements*/
+nav a
+{
+	display:inline-block;
+	padding: 1% 0;
+	width: 10%;
+	text-align: center;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none; /*removes hyperlink underline*/
+}
+
+.PYV
+{
+	background-color: #FF764E;
+	margin-left: 10%;
+}
+
+.LATP
+{
+	background-color: #5ED3EB;
+	margin: 0 24%
+	
+}
+
+.GI
+{
+	background-color: #FFCD69;
+	margin-right: 10%;
+}
+
+.ypg_img, .ypg_text
+{
+	display:inline-block;
+}
+
+.ypg_img
+{
+	width:30%;
+}
+
+.ypg_img img
+{
+	border-radius:50%;
+}
+
+.ypg_text
+{
+	width:60%;
+	margin:-left: 5%;
+	line-height:3;
+	text-align: center;
+}
+
+.alt_bg
+{
+	background-color: #DDB9A3;
+}
+
+.alt_bg p
+{
+	text-align: center;
+	color: white;
+	padding: 1%;
+}
+
+.safety_info div
+{
+	width:30%;
+	margin: 5% auto;
+	text-align: center;
+}
+
+.bold_font
+{
+	font-weight: bold;
+}
+
+.campfire img, .camper img
+{
+	width:50%;
+}
+
+.bottom_img
+{
+	background-image: url('assets/footer_img.jpg');
+	height:40vh;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:top center;
+	width: 100%;
+}
+
+footer
+{
+	background-color: #F9E7DC;
+}
