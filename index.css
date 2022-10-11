@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -46,3 +46,33 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*Universal selector to override the border and margins from the reset*/
+*
+{
+	margin: 0px;
+	box-sizing:border-box;
+	border:1px solid blue;
+	max-width:100%;
+}
+
+/*Generic Webpage Style*/
+
+html
+{
+	font-size: 62.5%; /*this makes the default font size equal to 10 px*/
+}
+
+body
+{
+	font-size: 1.6rem; /*page font size is now 16 px*/
+	line-height: 1.5;
+	font-family: 'Roboto Mono', monospace;
+}
+
+h1
+{
+	font-family: 'Chelsea Market', cursive;
+	font-size:5.5rem;
+}
+
